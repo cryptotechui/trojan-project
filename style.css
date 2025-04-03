@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 100;
+}
+div{
+    grid-column: 70;
+}
+.first{
+    grid-column: 71/100;
+    position: relative;
+    top: 200px;
+}
+.second{
+    grid-column: 71/100;
+    position: relative;
+    bottom: 200px;
+}
+a{
+    position: relative;
+    left: 150px;
+    bottom: 70px;
+}
